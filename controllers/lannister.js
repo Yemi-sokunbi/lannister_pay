@@ -254,10 +254,7 @@ exports.getPost = (req, res, next) => {
                     "Error": "No fee confiuration for transaction"
                 })
             }
-        }
-        console.log(Config.length)
-        //RETURN ERROR 
-       
+        };   
         
         //COMPUTE AppliedFeeValue
         if(Config[Config.length-1].feeType === "PERC"){
