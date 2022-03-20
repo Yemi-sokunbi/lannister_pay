@@ -1,5 +1,5 @@
 # lannister_pay
-A payment API
+A payment processing API
 {
   "dependencies": {
     "body-parser": "^1.19.2",
@@ -9,12 +9,12 @@ A payment API
   },
   "name": "lannister-pay",
   "version": "1.0.0",
-  "description": "Payment service charge API",
+  "description": "Payment processing API",
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Oluyemi Sokunbi",
   "license": "ISC"
